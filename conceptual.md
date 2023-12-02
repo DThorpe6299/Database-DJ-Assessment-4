@@ -1,0 +1,15 @@
+### Conceptual Exercise
+
+Answer the following questions below:
+
+- What is PostgreSQL? PostgreSQL is a Relational Database Management System (RDBMS) . It is open source, powerful, popular and follows the SQL standard closely.
+- What is the difference between SQL and PostgreSQL? SQL is a language used to manage and manipulate relational databases.  It's a standardized language used to interact with databases. However, PostgreSQL is an open-source relational database management system (RDBMS) that uses SQL as its query language.
+- In `psql`, how do you connect to a database? After the database is created you input the command 'psql database_name'.
+- What is the difference between `HAVING` and `WHERE`? "HAVING" is used to determine which grouped results to keep from a query while "WHERE" is used to determine which rows to use for a query.
+- What is the difference between an `INNER` and `OUTER` join? An Inner join is join is used to create a table in memory from rows of tables that meet the query condition in both tables. An Outer join can join rows in tables based on all rows in the left and those matching the condition on the right (LEFT join), the opposite (RIGHT join) or all rows from both tables (FULL join).
+- What is the difference between a `LEFT OUTER` and `RIGHT OUTER` join?An LEFT OUTER join can join rows in tables based on all rows in the left and those matching the condition on the right (LEFT join)and a RIGHT OUTER join joins all rows from the right table to rows matching the condition in the left table.
+- What is an ORM? What do they do? ORM stands for Object-Relational Mapping. It's a programming technique  used in software development to facilitate the conversion between the  data in a relational database and the objects used in object-oriented  programming languages.
+- What are some differences between making HTTP requests using AJAX 
+  and from the server side using a library like `requests`? Both AJAX and server-side requests using libraries like requests serve different purposes and are valuable tools in their respective environments. AJAX is more suited for client-side interactions and dynamic web applications, while requests is ideal for server-side operations and backend development.
+- What is CSRF? What is the purpose of the CSRF token? CSRF stands for Cross-Site Request Forgery. It is an attack on an authenticated user where information they submit on a website is actually sent to another website/server to steal information or to make unauthorized actions on the user's behalf.
+- What is the purpose of `form.hidden_tag()`? The form.hidden_tag() is a function or method used to generate an HTML input tag with the type set as "hidden". This tag is often used within HTML forms to include hidden fields. The purpose of form.hidden_tag() is to create a hidden input field within an HTML form. Hidden fields are not visible to users on the web page but can hold values that are submitted along with other form data when the form is submitted.
