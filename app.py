@@ -14,10 +14,6 @@ db.create_all()
 
 app.config['SECRET_KEY'] = "I'LL NEVER TELL!!"
 
-# Having the Debug Toolbar show redirects explicitly is often useful;
-# however, if you want to turn it off, you can uncomment this line:
-#
-# app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 
 debug = DebugToolbarExtension(app)
 
@@ -116,7 +112,7 @@ def add_song_to_playlist(playlist_id):
     playlist = Playlist.query.get_or_404(playlist_id)
     form = NewSongForPlaylistForm()
 
-  # Restrict form to songs not already on this playlist
+  
 
     curr_on_playlist = [s.id for s in playlist.songs]
     form.song.choices = (db.session.query(Song.id, Song.title)
